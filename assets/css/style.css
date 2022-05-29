@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto Bold', 'Open Sans Regular';
+}
+
+main {
+    display:flex;
+}
+/* Contacts Section =DDD!!! */
+
+.contacts {
+    width: 17%;
+    border: 1px solid gray;
+    height: 100%;
+    display: inline-flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.box {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+}
+
+.box img {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.text {
+    margin-left: 8%;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: x-small;
+}
+
+.icons {
+    align-items: center;
+    display: inline-flex;
+    width: 40%;
+    align-self: baseline;
+    margin-top: 10%;
+    margin-left: 15%;
+    justify-content: space-around;
+}
+
+.chat {
+    margin: auto;
+    padding: auto;
+}
+.newchat {
+    color: #A491D2;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Principal Section =DDD!! */
+
+.principal {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 250px;
+    margin-top: 70px;
+    padding: 100px;
+    width: 17%;
+    height: 100%;
+    text-align: center;
+}
+
+.flex-item {
+    width: 20em;
+    height: 10em;
+}
+
+.flex-item img {
+    width: 70%;
+}
